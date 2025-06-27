@@ -1,0 +1,81 @@
+{
+  "info": {
+    "_postman_id": "b66e7ed1-ffff-4320-9001-111111111111",
+    "name": "Chatbot Local Test",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "1. nuevo",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            { "key": "From", "value": "whatsapp:+593987117846", "type": "text" },
+            { "key": "Body", "value": "nuevo", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/webhook",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["webhook"]
+        }
+      }
+    },
+    {
+      "name": "2. Banco",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/x-www-form-urlencoded" }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            { "key": "From", "value": "whatsapp:+593987117846", "type": "text" },
+            { "key": "Body", "value": "Banco Pichincha", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/webhook",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["webhook"]
+        }
+      }
+    },
+    {
+      "name": "3. Barrio",
+      "request": {
+        "method": "POST",
+        "header": [
+          { "key": "Content-Type", "value": "application/x-www-form-urlencoded" }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            { "key": "From", "value": "whatsapp:+593987117846", "type": "text" },
+            { "key": "Body", "value": "Pascuales", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "http://127.0.0.1:5000/webhook",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "5000",
+          "path": ["webhook"]
+        }
+      }
+    }
+  ]
+}
