@@ -1,0 +1,13 @@
+# .env - Configuración del chatbot de WhatsApp con Twilio
+
+# Twilio Configuration
+TWILIO_ACCOUNT_SID='AC2e4bd59f63eb2186dc3ae1de0862b4ca'
+TWILIO_AUTH_TOKEN='9de28999999dc77816ea84318fe95252'
+TWILIO_WHATSAPP_NUMBER=whatsapp:+14155238886
+
+# Firebase Configuration
+FIREBASE_CREDENTIALS_PATH=./firebase-credentials.json
+
+# Configuración opcional
+FLASK_ENV=development
+FLASK_DEBUG=True
